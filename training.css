@@ -1,0 +1,45 @@
+.header{
+    padding: 8px 136px;
+}
+
+
+.header__wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.header__logo{
+    width: 174px;
+    height: 47px;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.header__nav-links{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.header__nav-links a{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.header__nav-button{
+    padding: 12px 30px;
+    background-color: #65256F;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
